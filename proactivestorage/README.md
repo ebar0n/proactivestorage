@@ -17,7 +17,7 @@ A key difference to how Pro Active Storage works compared to other attachment so
 
 
 In your Gemfile
-change `gem 'rails', '5.2.0'` to `gem 'rails', '5.2.0', :git => 'https://github.com/doberg/proactivestorage', :submodules => true`
+change `gem 'rails', '5.2.1'` to `gem 'rails', '5.2.1', :git => 'https://github.com/doberg/proactivestorage', :submodules => true`
 
 Then add the following line to your Gemfile:
 `gem 'proactivestorage', :git => 'https://github.com/doberg/proactivestorage', :glob => 'proactivestorage/*.gemspec'`
